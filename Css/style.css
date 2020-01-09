@@ -6,10 +6,6 @@ body {
   padding: 0;
 }
 
-button {
-  border-radius: 50px;
-}
-
 
 .big-heading {
   font-family: "Montserrat";
@@ -31,6 +27,7 @@ button {
 .registration-button {
   font-family: Ubuntu;
   margin: 5% 3% 5% 0;
+  box-shadow: 5px 5px 5px #888888;
 }
 
 .navbar-brand {
