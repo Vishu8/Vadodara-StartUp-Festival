@@ -1,56 +1,63 @@
 body {
-    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
-    font-family: sans-serif;
-    text-align: center;
-  }
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  text-align: center;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
 
-  
+button {
+  border-radius: 50px;
+}
+
+
 .big-heading {
-    font-family: "Montserrat";
-    font-size: 3.3rem;
-    font-weight: 600;
-    line-height: 1.5;
-  }
-  
-  #title {
-    text-align: left;
-  }
-  
-  .container-fluid {
-    height: 90vh;
-    padding: 3% 15% 13%;
-    color: #ffff;
-  }
-  
-  .download-button {
-    margin: 5% 3% 5% 0;
-  }
-  
-  .navbar-brand {
-    font-family: Ubuntu;
-    font-size: 2.5rem;
-    font-weight: bold;
-  }
-  
-  .nav-item {
-    padding: 0 5px;
-  }
-  
-  .nav-link {
-    font-family: "Montserrat";
-    font-size: 1.3rem;
-    font-weight: 500;
-    text-align: center;
-  }
-  
-  .intro {
-    margin-top: 60px;
-    margin-bottom: 60px;
-  }
-  .title-image {
-    margin-top: -60px;
-    margin-left: -150px;
-    width: 125%;
-    position: absolute;
-  }
-   
+  font-family: "Montserrat";
+  font-size: 3.3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  height: 90vh;
+  padding: 3% 15% 13%;
+  color: #ffff;
+}
+
+.registration-button {
+  font-family: Ubuntu;
+  margin: 5% 3% 5% 0;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.intro {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.title-image {
+  margin-top: -60px;
+  margin-left: -150px;
+  width: 125%;
+  position: absolute;
+}
